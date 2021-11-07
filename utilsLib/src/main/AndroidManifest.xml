@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mosi.update" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.mosi.app.MyApp">
+        <activity
+            android:name=".activity.UpdateType2Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name=".activity.UpdateBackgroundActivity"
+            android:theme="@style/DialogActivityTheme" />
+    </application>
+</manifest>
